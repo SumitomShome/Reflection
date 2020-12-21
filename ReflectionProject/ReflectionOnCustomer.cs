@@ -8,7 +8,7 @@ namespace ReflectionProject
     {
         public static void ReflectionTest()
         {
-            Type type = Type.GetType("ReflectionDemoProjectLive.CustomerInfo");
+            Type type = Type.GetType("ReflectionProject.CustomerInfo");
             Console.WriteLine("Full Name :{0}", type.FullName);
             Console.WriteLine("Class name is : {0}", type.Name);
             Console.WriteLine("Methods in customerInfo class");
